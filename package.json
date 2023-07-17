@@ -1,12 +1,20 @@
 {
   "name": "common-module",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
+  "bug": {
+    "email" : "ysh0208@Strato.co..kr"
+  },
+  "author": {
+    "name" : "양성훈"
+  },
+  "files": "dist/*",
+  "main": "./dist/common-module.common.js",
   "dependencies": {
     "core-js": "^3.8.3",
     "vue": "^3.2.13"
